@@ -1,0 +1,36 @@
+1. Objective
+To validate the Login functionality of the application using automated test scripts and ensure correct behavior for valid and invalid inputs.
+2. Scope
+In Scope:
+- Login page UI validation
+- Valid login scenario
+- Invalid login scenario
+- Error message validation
+- symbol and alphabet validation 
+
+ Out of Scope:
+- Database testing
+- Performance testing
+- Security testing
+
+3. Test Strategy
+- Manual test cases designed first
+- Automation using Selenium & PyTest
+- Page Object Model implementation
+- Data-driven testing using JSON
+
+ 4. Test Environment
+- OS: Windows
+- Browser: Chrome
+- Language: Python 3.x
+
+ 5. Entry Criteria
+- Application is accessible
+- Test data available
+
+ 6. Exit Criteria
+- All planned test cases executed
+- Test results documented
+
+#7. Risks & Mitigation
+- Browser compatibility issues → handled using WebDriver Manager
